@@ -34,3 +34,7 @@ Do this at the start of the deployment process to build all of the frontend temp
 $ NODE_ENV="production" \
   npm run build
 ```
+
+# Credits
+
+- http://angular-tips.com/blog/2015/06/using-angular-1-dot-x-with-es6-and-webpack/
