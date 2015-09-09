@@ -1,0 +1,14 @@
+<div ng-class="styles.container">
+  <div ng-class="styles.row">
+    <div ng-class="styles['col-md-8']">
+      <h1>Welcome to the app.</h1>
+      <hr>
+      <div ng-class="[styles.well, styles['well-sm']]">
+        <p ng-class="styles['text-center']"><i ng-class="[styles.fa, styles['fa-user']]"></i> I'm in the center of it all.</p>
+      </div>
+    </div>
+    <div ng-class="styles['col-md-4']">
+      <div ui-view></div>
+    </div>
+  </div>
+</div>
