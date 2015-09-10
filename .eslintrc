@@ -7,6 +7,9 @@
     "browser": true,
     "node": true
   },
+  "plugins": [
+    "angular"
+  ],
   "rules": {
     "comma-dangle": [2, "never"],
     "no-cond-assign": 2,
@@ -143,6 +146,7 @@
     "max-depth": 0,
     "max-params": 0,
     "max-statements": 0,
-    "no-plusplus": 0
+    "no-plusplus": 0,
+    "angular/controller-name": [2, "/[A-Z].*Ctrl$/"]
   }
 }

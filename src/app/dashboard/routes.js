@@ -7,6 +7,7 @@ export default function routes($stateProvider) {
     .state('app.dashboard', {
       url: '/',
       template: tmpl,
-      controller: 'DashboardCtrl'
+      controller: 'DashboardCtrl',
+      controllerAs: 'vm'
     });
 }
